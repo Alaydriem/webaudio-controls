@@ -570,7 +570,7 @@ ${this.basestyle}
         this.sendEvent("input"),this.sendEvent("change");
     }
     keydown(e){
-      const delta = this.step;
+      let delta = this.step;
       if(delta==0)
         delta=1;
       switch(e.key){
@@ -988,7 +988,7 @@ ${this.basestyle}
         this.sendEvent("input"),this.sendEvent("change");
     }
     keydown(e){
-      const delta = this.step;
+      let delta = this.step;
       if(delta==0)
         delta=1;
       switch(e.key){
